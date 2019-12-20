@@ -1,0 +1,21 @@
+.body-component {
+    display: flex;
+    justify-content: center;
+    padding: 3rem 3rem;
+    padding-top: 6rem;
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 1024px) {
+    .body-component {
+        padding: 2rem 2rem;
+        padding-top: 6rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .body-component {
+        padding: 1rem 1rem;
+        padding-top: 6rem;
+    }
+}

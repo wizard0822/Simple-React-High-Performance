@@ -1,0 +1,32 @@
+@import '../../assets/scss/variables';
+
+.bucket-component {
+  padding: 0 1em;
+  width: 25%;
+  max-width: 25%;
+  .bucket-description {
+    color: $bucket-title-color;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 10px 0;
+  }
+  .bucket-items {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
+@media only screen and (max-width: 1024px) {
+  .bucket-component {
+    width: 50%;
+    max-width: 50%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .bucket-component {
+    width: 100%;
+    max-width: 100%;
+  }
+}

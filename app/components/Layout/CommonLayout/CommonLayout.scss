@@ -1,0 +1,21 @@
+.contents {
+    display: flex;
+    justify-content: center;
+    padding: 2rem 2rem;
+    padding-top: 8rem;
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 1024px) {
+    .contents {
+        padding: 2rem 2rem;
+        padding-top: 6rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .contents {
+        padding: 1rem 1rem;
+        padding-top: 6rem;
+    }
+}
