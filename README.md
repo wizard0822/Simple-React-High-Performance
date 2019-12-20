@@ -1,11 +1,11 @@
-## TEST PROEJCT
+## TEST PROEJCT INSTALL
 
 npm install <br/>
 npm start <br/>
 
 ## OVERVIEW
 
-What am I going to show you from this simple test project <br/>
+What I am going to show you from this simple test project <br/>
 1: Structuring project with presentational components and container components <br/>
 2: Using purecomponent to do shallow comparison <br/>
 3: Functional components(stateless, statefull) <br/>
