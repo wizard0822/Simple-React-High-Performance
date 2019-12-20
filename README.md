@@ -5,7 +5,7 @@ npm start
 
 ## OVERVIEW
 
-What am I willing to show you from this simple test project
+What am I willing to show you from this simple test project <br/>
 1: Structuring project with presentational components and container components
 2: Using purecomponent to do shallow comparison
 3: Functional components(stateless, statefull)
